@@ -1,7 +1,9 @@
  let consumer_key = os.environ.get("CONSUMER_KEY")
 let consumer_secret = os.environ.get("CONSUMER_SECRET")
 
-
+// if using api, have array of words to search for
+// after sending to api, remove word from array
+// add logic to not send tweet if array is empty
 
 
 let id = "tweet-id-to-delete"
